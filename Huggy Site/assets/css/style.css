@@ -17,8 +17,8 @@
 /* topo */
 
 .topo{
-    background: linear-gradient(to right, #7301F1 , #A300BB);
-    height: 970px;
+    background: url("../images/topo-bg.jpg") center no-repeat;
+    height: 940px;
     position: relative;
 }
 
@@ -30,11 +30,9 @@
 
 .topo-3{
     width: 100vw;
-    height: 970px;
+    height: 940px;
     background: url("../images/cidade.png") center no-repeat;
     position: absolute;
-    top: -70px;
-    opacity: 0.3;
 }
 
 .menu-topo{
