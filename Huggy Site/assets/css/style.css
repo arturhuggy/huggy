@@ -17,22 +17,25 @@
 /* topo */
 
 .topo{
-    background: url("../images/topo-bg.jpg") center no-repeat;
-    height: 940px;
+    height: 1000px;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/city.svg"),
+    -webkit-linear-gradient(to right, #7301F1, #A300BB);
+    background-image: url("../images/city.svg"),
+    -moz-linear-gradient(to right, #7301F1, #A300BB);
+    background-image: url("../images/city.svg"),
+    -o-linear-gradient(to right, #7301F1, #A300BB);
+    background-image: url("../images/city.svg"),
+    linear-gradient(to right, #7301F1, #A300BB);
+    background-blend-mode: multiply;
 }
 
 .topo-2{
     width: 100%;
     height: 100.1%;
-    background: url("../images/braco-teste.png") bottom no-repeat;
-}
-
-.topo-3{
-    width: 100vw;
-    height: 940px;
-    background: url("../images/cidade.png") center no-repeat;
-    position: absolute;
+    background: url("../images/braco-vazado.svg") bottom no-repeat;
 }
 
 .menu-topo{
@@ -75,7 +78,7 @@
 
 .topo-info{
     text-align: center;
-    margin-top: 4em;
+    margin-top: 6em;
 }
 
 .topo-titulo{
@@ -333,10 +336,8 @@
 /* integracao  */
 
 .integracao{
-    background: url("../images/Slice.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(to bottom right ,#52636B , #78909C);
+    overflow: hidden;
 }
 
 .integracao-container{
@@ -406,6 +407,61 @@
     color: #5f717b !important;
     background: #ffffff;
 }
+
+.integracao-icon-1{
+    position: absolute;
+    left: -218px;
+    bottom: 65px;
+}
+
+.integracao-icon-2{
+    position: absolute;
+    left: -113px;
+    bottom: 120px;
+}
+
+.integracao-icon-3{
+    position: absolute;
+    left: -106px;
+    bottom: 8px;
+}
+
+.integracao-icon-4{
+    position: absolute;
+    left: 87px;
+    bottom: 9px;
+}
+
+.integracao-icon-5{
+    position: absolute;
+    right: 142px;
+    bottom: 30px;
+}
+
+.integracao-icon-6{
+    position: absolute;
+    right: -47px;
+    bottom: 132px;
+}
+
+.integracao-icon-7{
+    position: absolute;
+    right: -142px;
+    bottom: 85px;
+}
+
+.integracao-icon-8{
+    position: absolute;
+    right: -140px;
+    bottom: 202px;
+}
+
+.integracao-bg{
+    position: absolute;
+    bottom: 0px;
+    left: -370px;
+}
+
 
 /* cases */
 
@@ -506,10 +562,7 @@
 /* contato */
 
 .contato{
-    background: url("../images/Slice-2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(to bottom right, #7301F1, #A300BB)
 }
 
 .contato-container{
@@ -650,7 +703,6 @@ input[value^="Get started free!"] {
 .info-coluna-titulo{
     color: #ffffff;
     font-weight: bold;
-    text-transform: uppercase;
     margin-bottom: 1em;
 }
 
