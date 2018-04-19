@@ -227,8 +227,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 4em 0;
+    margin-top: 4em;
+    margin-bottom: 4em;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.conteudo-grupo-bg{
+    background: #FAFAFA;
+    padding: 1em 0;
 }
 
 .imagem-flutuante-1{
@@ -321,16 +329,30 @@
     text-align: center;
     position: relative;
     height: 520px;
-    margin: 4em 0;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .conteudo-image-container-last{
     display: flex;
     justify-content: space-between;
     position: absolute;
-    width: 100%;
-    top: 3em;
-    z-index: -1;
+    width: 113%;
+    top: 4em;
+    right: -1em;
+}
+
+.conteudo-grupo-last-bg{
+    background: #fafafa;
+    overflow: hidden;
+}
+
+.conteudo-image-sell-3{
+    position: absolute;
+    top: 70px;
+    right: -100px;
 }
 
 /* integracao  */
@@ -469,6 +491,20 @@
     position: relative;
 }
 
+.cases-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.cases-bg-1{
+    height: 100%;
+    width: 42%;
+    background: #FAFAFa;
+}
+
 .destaque-fundo{
     position: absolute;
     top: -25px;
@@ -599,6 +635,14 @@
     padding-left: 30px;
     background: rgba(0, 0, 0, 0.1);
     border: none;
+}
+
+input[type="text"]{
+    color: #ffffff;
+}
+
+.campo-email:focus{
+    outline: none;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
