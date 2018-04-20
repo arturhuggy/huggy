@@ -271,7 +271,7 @@
 }
 
 .conteudo-info-container{
-    max-width: 400px;
+    max-width: 420px;
 }
 
 .conteudo-info-container-last{
@@ -353,6 +353,10 @@
     position: absolute;
     top: 70px;
     right: -100px;
+}
+
+.conteudo-image-engage, .conteudo-image-fascinate{
+    max-width: 650px;
 }
 
 /* integracao  */
