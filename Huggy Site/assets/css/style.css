@@ -335,13 +335,16 @@
     margin-left: auto;
 }
 
-.conteudo-image-container-last{
-    display: flex;
-    justify-content: space-between;
+.conteudo-image-sell-1{
     position: absolute;
-    width: 113%;
-    top: 4em;
-    right: -1em;
+    bottom: -66px;
+    left: -150px;
+}
+
+.conteudo-image-sell-2{
+    position: absolute;
+    bottom: -66px;
+    right: -20px;
 }
 
 .conteudo-grupo-last-bg{
@@ -418,6 +421,7 @@
 }
 
 .button-info-integracao{
+    z-index: 1;
     color: #ffffff !important;
     font-size: 16px;
     margin-left: auto;
@@ -436,56 +440,56 @@
 
 .integracao-icon-1{
     position: absolute;
-    left: -218px;
+    left: -236px;
     bottom: 65px;
 }
 
 .integracao-icon-2{
     position: absolute;
-    left: -113px;
+    left: -133px;
     bottom: 120px;
 }
 
 .integracao-icon-3{
     position: absolute;
-    left: -106px;
+    left: -127px;
     bottom: 8px;
 }
 
 .integracao-icon-4{
     position: absolute;
-    left: 87px;
+    left: 66px;
     bottom: 9px;
 }
 
 .integracao-icon-5{
     position: absolute;
-    right: 142px;
+    right: 163px;
     bottom: 30px;
 }
 
 .integracao-icon-6{
     position: absolute;
-    right: -47px;
+    right: -27px;
     bottom: 132px;
 }
 
 .integracao-icon-7{
     position: absolute;
-    right: -142px;
+    right: -122px;
     bottom: 85px;
 }
 
 .integracao-icon-8{
     position: absolute;
-    right: -140px;
+    right: -120px;
     bottom: 202px;
 }
 
 .integracao-bg{
     position: absolute;
     bottom: 0px;
-    left: -370px;
+    left: -390px;
 }
 
 
@@ -733,7 +737,7 @@ input[value^="Get started free!"] {
 
 .rodape-icone{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
     transition: all 0.5s ease;
     margin: 0 0.4em;
 }
@@ -745,7 +749,7 @@ input[value^="Get started free!"] {
 }
 
 .rodape-icone:hover{
-    color: #d276d0;
+    color: #5606f4;
 }
 
 .info-coluna-titulo{
@@ -756,6 +760,7 @@ input[value^="Get started free!"] {
 
 .info-coluna-item{
     color: #ffffff;
+    font-family: granary-light;
 }
 
 .rodape-superior{
@@ -770,11 +775,17 @@ input[value^="Get started free!"] {
     color: #ffffff;
     margin: 0;
     margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .direitos-info{
     color: #ffffff;
     margin: 0;
+    font-size: 14px;
+    font-family: granary-light;
 }
 
 .rodape-inferior-container{
