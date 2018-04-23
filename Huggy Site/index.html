@@ -26,15 +26,15 @@
             <div class="topo-2">
                 <div class="topo-container container">
                     <div class="menu-topo">
-                        <div class="huggy-brand">
+                        <a href="#" class="huggy-brand">
                             <img class="brand-topo" src="assets/images/huggy-topo.svg" alt="destque-img" />
-                        </div>
+                        </a>
                         <div class="menu-itens">
                             <div class="menu-itens">
                                 <a href="#" class="menu-item">Company</a>
                                 <a href="#" class="menu-item">Pricing</a>
                                 <a href="#" class="menu-item">Forms of use</a>
-                                <a href="#" class="menu-item">Contact us</a>
+                                <a href="#contato" class="menu-item">Contact us</a>
                                 <a href="#" class="login">Login or</a>
                                 <a href="#" class="botao-menu-info-topo">Get started free</a>
                             </div>
@@ -164,14 +164,22 @@
                     the support that you will be able to offer using our platform, you will have more.
                 </p>
                 <a href="#" class="button-info-integracao">See all integrations</a>
-                <img class="integracao-icon-2" src="assets/images/intgr-2.svg" alt="destque-img" />
-                <img class="integracao-icon-1" src="assets/images/intgr-1.svg" alt="destque-img" />
-                <img class="integracao-icon-3" src="assets/images/intgr-3.svg" alt="destque-img" />
-                <img class="integracao-icon-4" src="assets/images/intgr-4.svg" alt="destque-img" />
-                <img class="integracao-icon-5" src="assets/images/intgr-5.svg" alt="destque-img" />
-                <img class="integracao-icon-6" src="assets/images/intgr-6.svg" alt="destque-img" />
-                <img class="integracao-icon-7" src="assets/images/intgr-7.svg" alt="destque-img" />
-                <img class="integracao-icon-8" src="assets/images/intgr-8.svg" alt="destque-img" />
+                <img class="integracao-icon-2" data-aos="fade-down" data-aos-duration="1000" src="assets/images/intgr-2.svg" alt="destque-img"
+                />
+                <img class="integracao-icon-1" data-aos="fade-down" data-aos-duration="2000" src="assets/images/intgr-1.svg" alt="destque-img"
+                />
+                <img class="integracao-icon-3" data-aos="fade-down" data-aos-duration="1500" src="assets/images/intgr-3.svg" alt="destque-img"
+                />
+                <img class="integracao-icon-4" data-aos="fade-down" data-aos-duration="1000" src="assets/images/intgr-4.svg" alt="destque-img"
+                />
+                <img class="integracao-icon-5" data-aos="fade-down" data-aos-duration="2500" src="assets/images/intgr-5.svg" alt="destque-img"
+                />
+                <img class="integracao-icon-6" data-aos="fade-down" data-aos-duration="2000" src="assets/images/intgr-6.svg" alt="destque-img"
+                />
+                <img class="integracao-icon-7" data-aos="fade-down" data-aos-duration="3000" src="assets/images/intgr-7.svg" alt="destque-img"
+                />
+                <img class="integracao-icon-8" data-aos="fade-down" data-aos-duration="1500" src="assets/images/intgr-8.svg" alt="destque-img"
+                />
             </div>
         </section>
         <section class="cases">
@@ -244,7 +252,7 @@
             </div>
         </section>
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <div class="contato-container container">
                 <h2 class="contato-titulo">Ready to transform your customer journey?</h2>
                 <form class="get-started" action="mailto:someone@example.com" method="post" enctype="text/plain">
@@ -354,8 +362,45 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="assets/aos-master/dist/aos.js"></script>
+
     <script>
         AOS.init();
+    </script>
+
+    <!-- smooth scroll -->
+
+    <script>
+        // Select all links with hashes
+        $('a[href*="#"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
     </script>
 
 

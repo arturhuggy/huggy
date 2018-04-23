@@ -245,7 +245,17 @@
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 400px;
+    top: 470px;
+    animation: MoveUpDown 3s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown {
+    0%, 100% {
+        top: 470px;
+      }
+      50% {
+        top: 490px;
+      }
 }
 
 .imagem-flutuante-2{
@@ -254,7 +264,7 @@
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 460px;
+    top: 520px;
 }
 
 .conteudo-info-titulo-container{
@@ -809,3 +819,4 @@ input[value^="Get started free!"] {
     font-size: 10px;
     color: #7fffd4;
 }
+
