@@ -831,7 +831,6 @@
     /* Topo */
 
     .topo-capture{
-        width: 100vw;
         height: 650px;
         background: linear-gradient(to right, #FF0069, #FEA729);
     }
