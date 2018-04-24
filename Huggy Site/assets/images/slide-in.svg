@@ -1,0 +1,27 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g data-name="Canvas" fill="none">
+<g data-name="slide-in">
+<g data-name="Rectangle">
+<rect x="1" y="1" width="46" height="46" rx="3" stroke-width="2" stroke="#D5E2E8"/>
+</g>
+<g data-name="Rectangle">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 4 1C 2.34315 1 1 2.34315 1 4L 1 21.5L 17 21.5L 17 4C 17 2.34315 15.6569 1 14 1L 4 1Z" stroke-width="2" stroke-miterlimit="8" transform="translate(25.5 25.5)" stroke="#52636B"/>
+</g>
+<g data-name="Group 2.1">
+<g data-name="Vector">
+<path d="M 0 0L 9 0" stroke-linecap="round" transform="translate(30 30.75)" stroke="#52636B"/>
+</g>
+<g data-name="Vector">
+<path d="M 0 0L 10.5 0" stroke-linecap="round" transform="translate(29.25 33.75)" stroke="#52636B"/>
+</g>
+<g data-name="Vector">
+<path d="M 0 0L 6 0" stroke-width="4" stroke-linecap="round" transform="translate(31.5 42)" stroke="#52636B"/>
+</g>
+<g data-name="Vector">
+<path d="M 0 0L 5.33333 0" stroke-linecap="round" transform="translate(32 36.75)" stroke="#52636B"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
+

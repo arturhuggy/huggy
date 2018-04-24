@@ -1,0 +1,27 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g data-name="Canvas" fill="none">
+<g data-name="Modal">
+<g data-name="Rectangle">
+<rect x="1" y="1" width="46" height="46" rx="3" stroke-width="2" stroke="#D5E2E8"/>
+</g>
+<g data-name="Rectangle">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 4 1C 2.34315 1 1 2.34315 1 4L 1 21.5C 1 23.1569 2.34315 24.5 4 24.5L 23 24.5C 24.6569 24.5 26 23.1569 26 21.5L 26 4C 26 2.34315 24.6569 1 23 1L 4 1Z" stroke-width="2" stroke-miterlimit="8" transform="translate(10.5 11.25)" stroke="#52636B"/>
+</g>
+<g data-name="Group 2">
+<g data-name="Vector">
+<path d="M 0 0L 16.5 0" stroke-linecap="round" transform="translate(15.75 18.75)" stroke="#52636B"/>
+</g>
+<g data-name="Vector">
+<path d="M 0 0L 12 0" stroke-linecap="round" transform="translate(18 21.75)" stroke="#52636B"/>
+</g>
+<g data-name="Vector">
+<path d="M 0 0L 9 0" stroke-width="4" stroke-linecap="round" transform="translate(19.5 30)" stroke="#52636B"/>
+</g>
+<g data-name="Vector">
+<path d="M 0 0L 8 0" stroke-linecap="round" transform="translate(20.25 24.75)" stroke="#52636B"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
+
