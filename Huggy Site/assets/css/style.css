@@ -889,18 +889,21 @@
 
     .convert-superior{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         height: 450px;
         margin: 5em auto;
+        position: relative;
     }
 
     .convert-superior-img-container{
-        max-width: 50%;
+        position: absolute;
+        left: -150px;
+        top: 0;
     }
 
     .convert-superior-info{
-        max-width: 45%;
+        max-width: 42%;
     }
 
     .convert-superior-titulo{
@@ -1026,6 +1029,12 @@
 
     /* guide */
 
+    .guide{
+        padding: 3em 0 3em 0;
+        background: #fafafa;
+        height: 800px;
+    }
+
     .guide-topo{
         text-align: center;
         max-width: 770px;
@@ -1041,4 +1050,66 @@
     .guide-topo-subtitulo{
         font-size: 20px;
         color: #78909C;
+    }
+
+    .guide-base{
+        position: relative;
+        height: 300px;
+    }
+
+    .guide-tree{
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .guide-person-img-1{
+        position: absolute;
+        top: 105px;
+        left: 70px;
+    }
+
+    .guide-person-img-2{
+        position: absolute;
+        top: 105px;
+        left: 245px;
+    }
+
+    .guide-person-img-3{
+        position: absolute;
+        top: 105px;
+        left: 505px;
+    }
+
+    .guide-person-img-4{
+        position: absolute;
+        top: 105px;
+        left: 770px;
+    }
+
+    .guide-person-img-5{
+        position: absolute;
+        top: 105px;
+        left: 945px;
+    }
+
+    .guide-person-img-6{
+        position: absolute;
+        top: 260px;
+        left: 305px;
+    }
+
+    .guide-person-img-7{
+        position: absolute;
+        top: 260px;
+        left: 465px;
+    }
+
+    .guide-person-img-8{
+        position: absolute;
+        top: 260px;
+        left: 630px;
     }
