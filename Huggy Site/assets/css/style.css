@@ -895,6 +895,24 @@
         position: relative;
     }
 
+    .seta-convert-1{
+        position: absolute;
+        bottom: -330px;
+        left: -25px;
+    }
+
+    .seta-convert-2{
+        position: absolute;
+        bottom: -330px;
+        left: 360px;
+    }
+
+    .seta-convert-3{
+        position: absolute;
+        bottom: -330px;
+        left: 754px;
+    }
+
     .convert-superior-img-container{
         position: absolute;
         left: -150px;
@@ -964,7 +982,17 @@
     /* qualify */
 
     .qualify{
-        margin: 4em 0;
+        margin: 4em 0 5em 0;
+        position: relative;
+    }
+
+    .linha-qualify{
+        position: absolute;
+        bottom: -125px;
+        right: 0;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .qualify-topo{
